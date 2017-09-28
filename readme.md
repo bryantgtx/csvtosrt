@@ -15,7 +15,7 @@ This app was designed for a workflow where
 5. check the results, if necessary delete the track, go back to step 3 with a different maxchar value
 
 ### Usage:
-    csvToSRT source [maxchars] [target]");
+    csvToSRT source [maxchars] [target]
 
        source   -  csv file to read.  Expected format is start time, stop time, subtitle text
        maxchars - Optional value limiting the length of each subtitle line (useful for editors that don't wrap)
